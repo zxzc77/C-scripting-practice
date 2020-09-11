@@ -1,21 +1,30 @@
 ﻿using System;
+using System.IO.MemoryMappedFiles;
 
-namespace Short_story_console_homework
+namespace Veriable_homework
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WindowHeight = 40;
-            Console.Title = "An AdVeNtUrE";
+            double num01;
+            double num02;
+            double num03;
+            string userName;
+            Console.WriteLine("Alright bith, what's your name?");
+            userName = Console.ReadLine();
 
-            Console.WriteLine("There once was a little bitch as- . . . a boy named...");
-            Console.ReadLine();
-            Console.WriteLine("... who decided to go shopping one day. \n Eventually he ending up buying a...");
-            Console.ReadLine();
-            Console.WriteLine("Unfortunately he didn't have the money to pay, so the cops were called. Thankfully he...");
-            Console.ReadLine();
-            Console.WriteLine("The end \n... \nWhat a gay story.");
+            Console.WriteLine(userName + " huh? Alright give me three numbers and I'll give you the average. \nFirst number?");
+            num01 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Alright give us another.");
+            num02 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("One more");
+            num03 = Convert.ToDouble(Console.ReadLine());
+
+            double result = (num01 + num02 + num03) / 3;
+            Console.WriteLine("Right. Check this shit out, " + userName + "\n" + result);
         }
     }
 }
