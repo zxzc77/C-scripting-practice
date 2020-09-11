@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Short story console homework", "Short story console homework\Short story console homework.csproj", "{A1B1F78A-BE6E-4663-ADDC-35274EC35FBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1B1F78A-BE6E-4663-ADDC-35274EC35FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B1F78A-BE6E-4663-ADDC-35274EC35FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B1F78A-BE6E-4663-ADDC-35274EC35FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B1F78A-BE6E-4663-ADDC-35274EC35FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA7F4A45-EEF3-4721-B6C9-D3FC5166C861}
+	EndGlobalSection
+EndGlobal
